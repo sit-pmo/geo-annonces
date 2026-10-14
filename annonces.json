@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "id": "2026-10-maj-cadastre",
+      "texte": "Le cadastre 2026 est disponible dans toutes les applications.",
+      "apps": ["*"],
+      "debut": "2026-10-14",
+      "fin": "2026-10-31",
+      "niveau": "info"
+    },
+    {
+      "id": "2026-10-coupure-urba",
+      "texte": "Maintenance le 20/10 de 12h à 14h : l'application sera indisponible.",
+      "lien": "https://geopmo.notion.site/Aides-et-tutoriels-b5290b896b714c049500a007f8a3ec77",
+      "lienTexte": "Détails",
+      "apps": ["urbanisme"],
+      "debut": "2026-10-14",
+      "fin": "2026-10-20",
+      "niveau": "alerte"
+    }
+  ]
+}
