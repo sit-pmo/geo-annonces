@@ -11,8 +11,8 @@ Modifier `annonces.json` sur GitHub et enregistrer. Format d'un message :
 |-------------|-------------|-------------|
 | `id`        | oui | Identifiant **unique** (ex. `2026-10-coupure-urba`). Ne jamais réutiliser : un utilisateur qui a fermé cet id ne reverra plus le message. |
 | `titre`     | non | Titre de la fenêtre. Défaut : « Information ». |
-| `texte`     | oui | Texte affiché (texte brut, pas de HTML). Chaque retour à la ligne `
-` crée un paragraphe. |
+| `texte`     | oui | Texte affiché (texte brut, pas de HTML). Pour plusieurs paragraphes : une liste `["Paragraphe 1", "Paragraphe 2"]` (ou `
+` dans une seule chaîne). |
 | `image`     | non | URL `http(s)` d'une image (PNG ou JPG). Pour une image du dépôt : la déposer dans `images/` et utiliser `https://raw.githubusercontent.com/sit-pmo/geo-annonces/main/images/<fichier>`. Pas de SVG (GitHub le sert en texte brut). |
 | `imageAlt`  | non | Description de l'image pour l'accessibilité. |
 | `apps`      | non | Liste des identifiants d'applications (`APP` dans le bloc JS), ou `["*"]` pour toutes. Défaut : toutes. |
