@@ -2,7 +2,10 @@
   "messages": [
     {
       "id": "2026-10-maj-cadastre",
-      "texte": "Le cadastre 2026 est disponible dans toutes les applications.",
+      "titre": "Cadastre 2026 disponible",
+      "image": "https://raw.githubusercontent.com/sit-pmo/geo-annonces/main/images/exemple.png",
+      "imageAlt": "Aperçu de la nouvelle couche cadastre",
+      "texte": "Le cadastre 2026 est disponible dans toutes les applications.\nLes parcelles ont été mises à jour au 1er janvier 2026.",
       "apps": ["*"],
       "debut": "2026-10-14",
       "fin": "2026-10-31",
@@ -10,6 +13,7 @@
     },
     {
       "id": "2026-10-coupure-urba",
+      "titre": "Maintenance programmée",
       "texte": "Maintenance le 20/10 de 12h à 14h : l'application sera indisponible.",
       "lien": "https://geopmo.notion.site/Aides-et-tutoriels-b5290b896b714c049500a007f8a3ec77",
       "lienTexte": "Détails",
