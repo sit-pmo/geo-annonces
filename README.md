@@ -22,3 +22,7 @@ Modifier `annonces.json` sur GitHub et enregistrer. Format d'un message :
 | `lienTexte` | non | Libellé du lien. Défaut : « En savoir plus ». |
 
 Attention : un JSON mal formé (virgule en trop) masque **toutes** les annonces. Vérifier sur https://jsonlint.com en cas de doute.
+
+## Installer dans une application GEO
+
+Copier tout le contenu de [`geo-annonces.js`](geo-annonces.js) dans le champ JavaScript de l'application, puis adapter la ligne `var APP = '...';` (identifiant de l'application, utilisé dans `apps`).
