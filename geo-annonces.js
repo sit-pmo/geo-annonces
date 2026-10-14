@@ -44,7 +44,9 @@
   // ── Styles (injectés une seule fois, préfixe .sitpmo- pour ne pas toucher à GEO) ──
   function injecterStyles() {
     var css =
-      '.sitpmo-overlay{position:fixed;inset:0;z-index:10000;background:rgba(107,107,107,.6);' +
+      // z-index maximal : la modale passe devant tout le reste de GEO, y compris les bulles
+      // Shepherd.js des modules (tutoriel Panoramax), qui restent grisées tant que l'annonce est ouverte
+      '.sitpmo-overlay{position:fixed;inset:0;z-index:2147483647;background:rgba(107,107,107,.6);' +
       'display:flex;align-items:center;justify-content:center;padding:16px;' +
       'font-family:"Public Sans",-apple-system,BlinkMacSystemFont,sans-serif;font-size:14px;' +
       'animation:sitpmo-fondu 200ms cubic-bezier(.2,0,0,1) both}' +
