@@ -1,29 +1,22 @@
 {
   "messages": [
     {
-      "id": "2026-10-maj-cadastre",
-      "titre": "Cadastre 2026 disponible",
-      "image": "https://raw.githubusercontent.com/sit-pmo/geo-annonces/main/images/exemple.png",
-      "imageAlt": "Aperçu de la nouvelle couche cadastre",
+      "id": "2026-10-ortho-oleron",
+      "titre": "🗺️ Une nouvelle orthophotographie est disponible sur toute l’île d’Oléron !",
+      "image": "https://raw.githubusercontent.com/sit-pmo/geo-annonces/main/images/ortho_oleron_evc.png",
+      "imageAlt": "Aperçu de la nouvelle ortho Oléron",
       "texte": [
-        "Le cadastre 2026 est disponible dans toutes les applications.",
-        "Les parcelles ont été mises à jour au 1er janvier 2026."
+        "Celle-ci possède une résolution de 10cm (à titre de comparaison celle que vous voyez par défaut de l’IGN est à 20cm de résolution) et a été capturée le 14 septembre 2026.",
+        "",
+        "Elle a été financée par le Services Espaces naturels de la Communauté de communes de l’île d’Oléron dans le cadre d’un projet d’état des lieux de l’Herbe de la pampa.",
+        "Etant financée par de l’argent public, elle est de fait en open data et vous pourrez donc la retrouver dans toutes vos meilleures applications GEO !",
+        "",
+        "Si vous voyez des détails visuels problématiques comme de forts reflets ou bien des effets de cisaillements, cela peut arriver donc n’hésitez pas à nous faire remonter l’information !"
       ],
       "apps": ["*"],
       "debut": "2026-10-14",
-      "fin": "2026-10-31",
+      "fin": "2026-10-21",
       "niveau": "info"
-    },
-    {
-      "id": "2026-10-coupure-urba",
-      "titre": "Maintenance programmée",
-      "texte": "Maintenance le 20/10 de 12h à 14h : l'application sera indisponible.",
-      "lien": "https://geopmo.notion.site/Aides-et-tutoriels-b5290b896b714c049500a007f8a3ec77",
-      "lienTexte": "Détails",
-      "apps": ["urbanisme"],
-      "debut": "2026-10-14",
-      "fin": "2026-10-20",
-      "niveau": "alerte"
     }
   ]
 }
