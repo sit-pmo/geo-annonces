@@ -5,7 +5,10 @@
       "titre": "Cadastre 2026 disponible",
       "image": "https://raw.githubusercontent.com/sit-pmo/geo-annonces/main/images/exemple.png",
       "imageAlt": "Aperçu de la nouvelle couche cadastre",
-      "texte": "Le cadastre 2026 est disponible dans toutes les applications.\nLes parcelles ont été mises à jour au 1er janvier 2026.",
+      "texte": [
+        "Le cadastre 2026 est disponible dans toutes les applications.",
+        "Les parcelles ont été mises à jour au 1er janvier 2026."
+      ],
       "apps": ["*"],
       "debut": "2026-10-14",
       "fin": "2026-10-31",
